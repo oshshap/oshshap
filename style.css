@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  color: rgb(10, 10, 10);
+  background-color: #ccd1d3;
+  height: 50vh;
+  padding: 2rem;
+  overflow: hidden;
+}
+h1 {
+  text-decoration: underline;
+}
+.top {
+  width: 52rem;
+  font-size: 2rem;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+}
+.center {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+.right {
+  position: absolute;
+  top: 40%;
+  left: 65%;
+}
+.left {
+  position: absolute;
+  top: 25%;
+  left: 65%;
+}
+.btn_calcDiscount {
+  background-color: rgb(31, 212, 70);
+  color: #222;
+  font-size: 2rem;
+  padding: 0.2rem 4rem;
+  cursor: pointer;
+  width: 5.5rem;
+}
+.btn_reset {
+  background-color: rgb(31, 212, 70);
+  color: #222;
+  font-size: 2rem;
+  padding: 0.2rem 4rem;
+  cursor: pointer;
+  width: 5.5rem;
+}
+.my_price {
+  background: none;
+  border: 3px solid rgb(17, 15, 15);
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  padding: 0.1rem 2.7rem;
+  width: 8rem;
+  text-align: center;
+  display: block;
+}
+.my_percentage {
+  background: none;
+  border: 3px solid rgb(17, 15, 15);
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  padding: 0.1rem 2.7rem;
+  width: 8rem;
+  text-align: center;
+  display: block;
+}
+.my_units {
+  background: none;
+  border: 3px solid rgb(17, 15, 15);
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  padding: 0.1rem 2.7rem;
+  width: 8rem;
+  text-align: center;
+  display: block;
+}
+.my_result {
+  background: none;
+  border: 3px solid rgb(17, 15, 15);
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  padding: 0.1rem 2.7rem;
+  width: 8rem;
+  text-align: center;
+  display: block;
+}
+.my_NumberOfUnites {
+  background: none;
+  border: 3px solid rgb(17, 15, 15);
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  padding: 0.1rem 2.7rem;
+  width: 8rem;
+  text-align: center;
+  display: block;
+}
+.my_DiscountPrice {
+  background: none;
+  border: 3px solid rgb(17, 15, 15);
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  padding: 0.1rem 2.7rem;
+  width: 8rem;
+  text-align: center;
+  display: block;
+}
+.my_UPrice {
+  background: none;
+  border: 3px solid rgb(17, 15, 15);
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  padding: 0.1rem 2.7rem;
+  width: 8rem;
+  text-align: center;
+  display: block;
+}
+.messageMPr {
+  margin-bottom: 0.5rem;
+  height: 1.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 14rem;
+}
+.messageMPer {
+  margin-bottom: 0.5rem;
+  height: 1.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 14rem;
+}
+.messageRes {
+  margin-bottom: 0.5rem;
+  height: 1.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 14rem;
+}
+.btn_check {
+  background-color: rgb(31, 212, 70);
+  color: #222;
+  font-size: 2rem;
+  padding: 0.2rem 4rem;
+  cursor: pointer;
+  width: 5.5rem;
+}
+.btn_calcDPU {
+  background-color: rgb(31, 212, 70);
+  color: #222;
+  font-size: 2rem;
+  padding: 0.2rem 4rem;
+  cursor: pointer;
+  width: 5.5rem;
+}
+.messageNOFU {
+  margin-bottom: 0.5rem;
+  height: 1.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 14rem;
+}
+.messageDP {
+  margin-bottom: 0.5rem;
+  height: 1.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 14rem;
+}
+.messagePPU {
+  margin-bottom: 0.5rem;
+  height: 1.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 14rem;
+}
+/* .exc {
+  background: none;
+  border: 3px solid rgb(245, 8, 8);
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  padding: 0.1rem 2.7rem;
+  width: 8rem;
+  text-align: center;
+  display: block; */

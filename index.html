@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>calc discount</title>
+  </head>
+  <body>
+    <section class="top">
+      <h1>מחשבון מחיר לאחר הנחה ומחיר ליחידה</h1>
+    </section>
+
+    <section class="right">
+      <p class="messageMPr">מחיר לפני הנחה</p>
+      <input type="number" class="my_price" />
+      <p class="messageMPer">אחוז הנחה</p>
+      <input type="number" class="my_percentage" />
+      <button class="btn_calcDiscount">! חשב</button>
+      <p class="messageRes">מחיר לאחר הנחה</p>
+      <p class="my_result">תוצאה</p>
+    </section>
+    <section class="center">
+      <p class="messageDP">מחיר המבצע</p>
+      <input type="number" class="my_DiscountPrice" />
+      <p class="messageNOFU">כמות יחידות במבצע</p>
+      <input type="number" class="my_NumberOfUnites" />
+      <button class="btn_calcDPU">! חשב</button>
+      <p class="messagePPU">מחיר ליחידה</p>
+      <p class="my_UPrice">תוצאה</p>
+    </section>
+    <section class="left">
+      <button class="btn_reset">! איפוס</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
