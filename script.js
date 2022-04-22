@@ -11,11 +11,10 @@ const btnCalcDPUnit = document.querySelector('.btn_calcDPU');
 const myNOFUnites = document.querySelector('.my_NumberOfUnites');
 const myDPrice = document.querySelector('.my_DiscountPrice');
 const myUnits = document.querySelector('.my_UPrice');
-const messageNOfUnites = document.querySelector('.messageNOFU');
+let messageNOfUnites = document.querySelector('.messageNOFU');
 const messageDPrice = document.querySelector('.messageDP');
 
 const btnReset = document.querySelector('.btn_reset');
-
 btnCalcDiscount.addEventListener('click', function () {
   if (myPrice.value === '') {
     messageMPrice.textContent = '!!לא הוכנס מספר';
@@ -51,7 +50,7 @@ btnCalcDPUnit.addEventListener('click', function () {
       myDPrice.value = myNOFUnites.value = '';
       messageDPrice.textContent = 'מחיר המבצע';
       messageDPrice.style.color = 'rgb(17, 15, 15)';
-      messageNOfUnites.textContent = 'כמות יחידות במבצע';
+      messageNOfUnites.textContent = messageNOfUnites.textContent;
       messageNOfUnites.style.color = 'rgb(17, 15, 15)';
     }
   }
@@ -66,7 +65,7 @@ btnReset.addEventListener('click', function () {
   messageMPercentage.style.color = 'rgb(17, 15, 15)';
   messageDPrice.textContent = 'מחיר המבצע';
   messageDPrice.style.color = 'rgb(17, 15, 15)';
-  messageNOfUnites.textContent = 'כמות יחידות במבצע';
+  messageNOfUnites.textContent = messageNOfUnites.textContent;
   messageNOfUnites.style.color = 'rgb(17, 15, 15)';
   result.textContent = 'תוצאה';
   myUnits.textContent = 'תוצאה';
