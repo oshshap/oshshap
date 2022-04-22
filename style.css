@@ -23,18 +23,18 @@ h1 {
 }
 .center {
   position: absolute;
-  top: 40%;
-  left: 25%;
+  top: 50%;
+  left: 5%;
 }
 .right {
   position: absolute;
-  top: 40%;
-  left: 65%;
+  top: 50%;
+  left: 75%;
 }
 .left {
   position: absolute;
   top: 25%;
-  left: 65%;
+  left: 40%;
 }
 .btn_calcDiscount {
   background-color: rgb(31, 212, 70);
